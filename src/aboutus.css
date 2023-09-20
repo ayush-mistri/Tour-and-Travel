@@ -26,6 +26,28 @@
     align-items: center;
   }
   
+  .header {
+    width: 100%;
+    height: 40rem;
+    background: linear-gradient(rgba(185, 226, 237, 0.5), rgba(160, 185, 222, 0.3)),
+      url(https://images.unsplash.com/photo-1610552050890-fe99536c2615?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW91bnRhaW4lMjBsYW5kc2NhcGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80) center no-repeat;
+    background-size: cover;
+    position: relative;
+    perspective: 70rem;
+  }
+  
+  .header-text {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-shadow: 0 0.3rem 0.5rem var(--grey-color);
+  }
+  
+  .heading {
+    font-size: 5rem;
+    color: rgb(45, 45, 59);
+  }
+
   .container {
     background-color: #d2d0f1;
     margin: 3.5rem;
@@ -112,3 +134,10 @@
     margin-left: 1rem;
   }
   
+  .back{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+  }
