@@ -1,23 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Vollkorn", serif;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
 html {
     font-size: 62.5%;
   }
-  
+
   :root {
     --primary-color: #2b81e4;
     --secondary-color: #eee;
     --white-color: #fff;
     --grey-color: #555;
     --light-grey-color: #777;
-  }
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Vollkorn", serif;
-    list-style-type: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    outline: none;
   }
   
 .container {
@@ -154,6 +154,7 @@ html {
   .back{
     width: 5rem;
     position: relative;
-    left: 5rem;
-    top: 10rem;
+    left: 2.8rem;
+    top: 2.8rem;
+
   }

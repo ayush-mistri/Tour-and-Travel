@@ -20,12 +20,6 @@
     --light-grey-color: #777;
   }
   
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
   .container {
     background-color: var(--secondary-color);
     margin: 3.5rem;
@@ -36,11 +30,13 @@
 .contact {
     padding: 15rem 0 20rem 0;
     text-align: center;
-    background: url(images/contact-us-bg.png) center no-repeat;
-    background-size: cover;
-    animation: contact-bg 100s infinite;
   }
   
+  .backimg{
+    background: url(images/contact-us-bg.png) center no-repeat;
+    background-size:cover;
+    animation: backimg-bg 200s infinite;
+  }
   .contact-heading {
     font-size: 7rem;
     font-weight: 700;
@@ -131,7 +127,7 @@
     max-width: 100%;
   }
   
-  @keyframes contact-bg {
+  @keyframes backimg-bg {
     0% {
       background-color: #3d3d3d;
     }
@@ -147,4 +143,12 @@
     100% {
       background-color: #3d3d3d;
     }
+  }
+
+  .back{
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    left: 2.8rem;
+    top: 2.8rem;
   }
