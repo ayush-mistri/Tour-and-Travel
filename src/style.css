@@ -604,7 +604,7 @@ html {
 /* Footer */
 .footer {
   background-color: var(--grey-color);
-  padding: 4rem 0 2rem 0;
+  padding: 2.5rem 0 2rem 0;
 }
 
 .footer-list {
