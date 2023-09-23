@@ -34,7 +34,8 @@
   
   .backimg{
     background: url(images/contact-us-bg.png) center no-repeat;
-    background-size:cover;
+    background-size: cover;
+    background-color: #b5b4b8;
     animation: backimg-bg 200s infinite;
   }
   .contact-heading {
@@ -49,8 +50,8 @@
   
   .contact-form {
     width: 70rem;
-    height: 50rem;
-    background-color: rgba(255, 255, 255, 0.95);
+    height: 40rem;
+    background-color: rgba(105, 103, 103, 0.95);
     margin: auto;
     flex-direction: column;
     border-radius: 0.5rem;
@@ -110,7 +111,7 @@
     font-size: 1.6rem;
     letter-spacing: 0.1rem;
     margin-top: 1rem;
-    background-color: var(--light-grey-color);
+    background-color: black;
     color: var(--white-color);
     border-radius: 0.5rem;
     border: none;
@@ -127,7 +128,7 @@
     max-width: 100%;
   }
   
-  @keyframes backimg-bg {
+  /* @keyframes backimg-bg {
     0% {
       background-color: #3d3d3d;
     }
@@ -143,7 +144,7 @@
     100% {
       background-color: #3d3d3d;
     }
-  }
+  } */
 
   .back{
     width: 5rem;
