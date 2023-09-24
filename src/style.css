@@ -14,6 +14,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -262,28 +263,7 @@ html {
   animation: image-float 150s infinite;
 }
 
-@keyframes image-float {
-  0% {
-    transform: translateZ(40rem);
-    opacity: 1;
-  }
-  40% {
-    transform: translateZ(-500rem) translateX(150rem);
-    opacity: 0.8;
-  }
-  70% {
-    transform: translateZ(-1500rem) translateX(800rem);
-    opacity: 0.6;
-  }
-  80% {
-    transform: translateZ(-50rem) translateX(100rem);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translateZ(40rem);
-    opacity: 1;
-  }
-}
+
 /* End of Header */
 
 /* Popular tours */
@@ -333,8 +313,8 @@ html {
   font-weight: 500;
   text-transform: uppercase;  
   position: absolute;
-  top: 25rem;
-  left: 20rem;
+  top: 26rem;
+  left: 30rem;
   color: var(--white-color);
   text-shadow: 0 0.2rem 0.3rem #000;
 }
@@ -344,8 +324,8 @@ html {
   font-weight: 500;
   text-transform: uppercase;  
   position: absolute;
-  top: 25rem;
-  left: 70rem;
+  top: 26rem;
+  left: 82rem;
   color: var(--white-color);
   text-shadow: 0 0.2rem 0.3rem  #000;
 }
@@ -355,8 +335,8 @@ html {
   font-weight: 500;
   text-transform: uppercase;  
   position: absolute;
-  top: 25rem;
-  left: 116rem;
+  top: 26rem;
+  left: 129rem;
   color: var(--white-color);
   text-shadow: 0 0.2rem 0.3rem  #000;
 }
