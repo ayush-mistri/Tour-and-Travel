@@ -37,15 +37,16 @@
     width: 65%;
     min-width: 295px;
     height: auto;
-  }
-  img{
     float: left;
     background-color: #ddecf1;
     padding: 3rem;
     margin: 3.8rem;
     box-shadow: 0 2rem 5rem rgba(51, 51, 51, 0.4);
-    
   }
+  /* img{
+    
+    
+  } */
 
   .top{
     /* background-color: #d2d0f1;
@@ -130,4 +131,17 @@
     box-shadow: 0 1rem 3rem var(--grey-color);
     width: 23rem;
     padding-left: 1rem;
+  }
+
+  .back{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: 5rem;
+    top: 5rem;
+  }
+
+  .back-button{
+    height: 4rem;
+    
   }
