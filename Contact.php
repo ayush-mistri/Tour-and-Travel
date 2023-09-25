@@ -63,7 +63,6 @@ if(isset($_POST['Name'])){
                 text-shadow: 0 0.5rem 0.7rem black;
               }
             </style>
-            <!-- <p class="sub">Thanks for submitting your form</p> -->
             <form action="Contact.php" method="post" class="contact-form center">
               <div class="input-group">
                 <label>Name</label>

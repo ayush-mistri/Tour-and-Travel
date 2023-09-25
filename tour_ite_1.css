@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Vollkorn", serif;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+  
+  :root {
+    --primary-color: #2b81e4;
+  --secondary-color: #eee;
+  --white-color: #fff;
+  --grey-color: #555;
+  --light-grey-color: #777;
+  }
+
+  /* .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .container {
+    background-color: #d2d0f1;
+    margin: 3.5rem;
+    box-shadow: 0 1rem 3rem var(--grey-color);
+    overflow: hidden;
+  }
+
+  .responsive{
+    width: 65%;
+    min-width: 295px;
+    height: auto;
+    float: left;
+    background-color: #ddecf1;
+    padding: 3rem;
+    margin: 3.8rem;
+    box-shadow: 0 2rem 5rem rgba(51, 51, 51, 0.4);
+  }
+  /* img{
+    
+    
+  } */
+
+  .top{
+    /* background-color: #d2d0f1;
+    box-shadow: 0 1rem 3rem var(--grey-color); */
+    margin: 2.5rem;
+    /* padding: auto; */
+    overflow: hidden;
+  }
+
+  .details{
+    background-color: var(--secondary-color);
+    /* margin: 4rem; */
+    /* box-shadow: 0 1rem 3rem var(--grey-color); */
+    overflow: hidden;
+    /* float: left; */
+    background-color: #ddecf1;
+    padding: 2rem;
+    margin: 4rem;
+    height: 50%;
+    box-shadow: 0 2rem 5rem rgba(51, 51, 51, 0.4);
+  }
+  .card-list {
+    width: 80%;
+    margin: auto;
+    padding: 0.5rem 0 0.5rem 0;
+  }
+  
+  .card-list-item {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    color: var(--light-grey-color);
+    margin: 2rem 0;
+    border-bottom: 0.1rem solid var(--primary-color);
+    padding-bottom: 1rem;
+  }
+
+  .bottom{
+    margin: 2.5rem;
+    overflow: hidden;
+    overflow: hidden;
+  }
+
+  .days{
+    text-align: left;
+    list-style-type:disc;
+  }
+
+  .items{
+    list-style-type:disc;
+    margin-left: 3.5rem;
+    padding: 0.4rem;
+  }
+
+  .day-head{
+    border-bottom: 0.1rem solid var(--primary-color);
+    padding: 1rem;
+    border-top: 0.1rem solid var(--primary-color);
+  }
+
+  .days{
+    padding: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .itinerary{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    color: var(--light-grey-color);
+    /* margin: 2rem 0; */
+    /* border-bottom: 0.1rem solid var(--primary-color); */
+    /* padding-bottom: 1rem; */
+  }
+
+  .heading{
+    font-size: 4rem;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    color: var(--light-grey-color);
+    box-shadow: 0 1rem 3rem var(--grey-color);
+    width: 23rem;
+    padding-left: 1rem;
+  }
+
+  .back{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: 5rem;
+    top: 5rem;
+  }
+
+  .back-button{
+    height: 4rem;
+    
+  }
