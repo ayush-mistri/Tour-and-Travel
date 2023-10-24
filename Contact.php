@@ -1,11 +1,12 @@
 <?php
 $sub = false;
-if(isset($_POST['Name'])){
+if(isset($_POST["Name"])){
   $server = "localhost";
   $username = "root";
   $password = "";
+  $database = "project";
 
-  $con = mysqli_connect($server, $username, $password);
+  $con = mysqli_connect($server, $username, $password, $database);
 
   if(!$con){
     die("connection to this database failed due to". mysqli_connect_error());
@@ -15,7 +16,7 @@ if(isset($_POST['Name'])){
   $Email = $_POST['Email'];
   $Phone = $_POST['Phone'];
   $Message = $_POST['Message'];
-  $sql = "INSERT INTO `tour-travel`.`tour-travel` (`Name`, `Email`, `Phone`, `Message`,`Date`) VALUES ('$Name', '$Email', '$Phone', '$Message', current_timestamp());"; 
+  $sql = "INSERT INTO `project.tour-travel` (`Name`, `Email`, `Phone`, `Message`, `Date`) VALUES ($Name, $Email, $Phone, $Message, current_timestamp())";
   // echo $sql;
 
   if($con->query($sql) == true){
@@ -71,6 +72,7 @@ if(isset($_POST['Name'])){
                   type="text"
                   class="contact-input"
                   placeholder="Enter Your Name"
+                  autocomplete="off"
                 />
               </div>
               <div class="input-groups">
@@ -81,6 +83,7 @@ if(isset($_POST['Name'])){
                     type="email"
                     class="contact-input"
                     placeholder="Enter Your Email"
+                    autocomplete="off"
                   />
                 </div>
                 <div class="input-group">
@@ -90,6 +93,7 @@ if(isset($_POST['Name'])){
                     type="text"
                     class="contact-input"
                     placeholder="Enter Phone Number"
+                    autocomplete="off"
                   />
                 </div>
               </div>
@@ -99,9 +103,10 @@ if(isset($_POST['Name'])){
                     name="Message"
                   class="form-textarea"
                   placeholder="Your Message Here..."
+                  autocomplete="off"
                 ></textarea>
               </div>
-              <input type="submit" value="Submit" class="form-btn" />
+              <input type="Submit" name="Submit" value="Submit" class="form-btn" />
             </form>
           </section>
         </div>
